@@ -39,7 +39,8 @@ const handleSearch = async () => {
                 height="76px"
                 sx={{
                     input: {fontWeight: '700',border: 'none', borderRadius:'4px'},
-                    width: {lg:'800px', xs: '350px'},
+                    width: {lg:'800px', xs: '240px'},
+                    ml:{xs:'-120px'},
                     backgroundColor: "#fff",
                     borderRadius: "40px"
                 }}

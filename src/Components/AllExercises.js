@@ -41,7 +41,7 @@ sx={{
         count={Math.ceil(exercises.length/9)}
         page={currentPage}
         onChange={paginate}
-        size="large"
+        size="medium"
         >
     </Pagination>
 )} 
