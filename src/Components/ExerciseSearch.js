@@ -4,7 +4,7 @@ import { fetchData, options } from './fetchData'
 import HorizontalScrollbar from './HorizontalScrollbar'
 
 const ExerciseSearch = ({setBodyPart, setExercises, bodyPArt, setbodyClick}) => {
-const [search, setSearch] = useState('cardio')
+const [search, setSearch] = useState('')
 
 
 const handleSearch = async () => {
