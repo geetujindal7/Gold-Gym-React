@@ -1,11 +1,10 @@
-import React,{useEffect, useState} from 'react'
+import React,{useState} from 'react'
 import { Pagination } from '@mui/material'
 import {Box, Stack, Typography} from '@mui/material'
-import { fetchData, options } from './fetchData'
 import ExerciseCard from './ExerciseCard'
 
 
-const AllExercises = ({setExercises, setBodyPart, exercises}) => {
+const AllExercises = ({exercises}) => {
 
     const [currentPage, setCurrentPage] = useState(1)
 

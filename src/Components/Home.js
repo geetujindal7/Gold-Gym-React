@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react'
-import {Box} from '@mui/material'
 import HeroBanner from './HeroBanner'
 import ExerciseSearch from './ExerciseSearch'
 import { fetchData, options } from './fetchData'
@@ -22,7 +21,13 @@ function Home() {
         const data = await fetchData('https://exercisedb.p.rapidapi.com/exercises', options)
         setExercises(data)
     } 
+    const fetchExercisesData = async () => {
+        const bodyParts = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', options);
+        setBodyPart(['All', ...bodyParts])
+        }
     exericseData();
+    fetchExercisesData();
+    
  }, [])
 
   return (<>
