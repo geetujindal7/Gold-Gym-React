@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 Check the live project-
-https://62d67bcb2a54bf00095e5b6a--keen-shortbread-caab6a.netlify.app/#exercises
+https://goldsgym-check.netlify.app/
 
 
 
